@@ -8,8 +8,8 @@ const Resumen = ({ info }) => {
       <>
         <div className="resumen">
           <h2>Resumen de Cotización</h2>
-          <li>Marca:{primeraMayuscula(String(marca))}</li>
-          <li>Año:{primeraMayuscula(String(year))}</li>
+          <li>Marca:{primeraMayuscula(marca)}</li>
+          <li>Año:{primeraMayuscula(year)}</li>
           <li>Plan:{plan}</li>
         </div>
       </>

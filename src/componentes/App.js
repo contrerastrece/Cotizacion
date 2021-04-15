@@ -7,7 +7,7 @@ import Resumen from "./Resumen";
 import Resultado from "./Resultado";
 
 function App() {
-  const [precio, setPrecio] = useState(0);
+  const [precio, setPrecio] = useState("");
   const [dato, setDato] = useState({});
 
   let cotizarSeguro = (datos) => {
